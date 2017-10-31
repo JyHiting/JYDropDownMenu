@@ -1,2 +1,2 @@
 # JYDropDownMenu
-![image](https://github.com/CodingEverydayForFuture/JYDropDownMenu/master/mygif.gif)
+![image](https://github.com/CodingEverydayForFuture/JYDropDownMenu/blob/master/mygif.gif)
