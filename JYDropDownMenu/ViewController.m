@@ -93,7 +93,9 @@
     secondDropDownMenu.currentShowItems = @[section0DataArr[0],section1DataArr[0],section2DataArr[0]];
     //数据源
     secondDropDownMenu.eachSectionListDataSource = @[section0DataArr,section1DataArr,section2DataArr];
+    
 }
+
 
 
 - (void)didReceiveMemoryWarning {

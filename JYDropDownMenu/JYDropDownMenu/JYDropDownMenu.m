@@ -83,7 +83,6 @@ static NSString *const cellId = @"JYDropDownItemCell";
         self.sectionBts = [NSMutableArray array];
         self.sectionDatasTable = [[UITableView alloc] initWithFrame:CGRectMake(0,0, self.bounds.size.width, self.listTableHeight) style:UITableViewStylePlain];
         [self.sectionDatasTable registerNib:[UINib nibWithNibName:@"JYDropDownItemCell" bundle:nil] forCellReuseIdentifier:cellId];
-        self.listTableRowHeight = 45;
         self.sectionDatasTable.delegate = self;
         self.sectionDatasTable.dataSource = self;
         self.sectionDatasTable.tableFooterView = [UIView new];
@@ -205,6 +204,11 @@ static NSString *const cellId = @"JYDropDownItemCell";
             [self.sectionDatasTable reloadData];
         }];
     }
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    return self.listTableRowHeight;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
