@@ -7,11 +7,9 @@ s.license      = 'MIT'
 s.authors      = {'CodingEverydayForFuture' => '15238033727@163.com'}
 s.platform     = :ios, '8.0'
 s.source       = {:git => 'https://github.com/CodingEverydayForFuture/JYDropDownMenu.git', :tag => s.version}
-s.source_files = 'JYDropDownMenu/JYDropDownMenu/*.{h,m}'
+s.source_files = 'JYDropDownMenu/JYDropDownMenu/*.{h,m,xib}'
 s.requires_arc = true
-s.subspec 'imgs' do |ss|
-ss.source_files = 'JYDropDownMenu/JYDropDownMenu/imgs/*.png'
-end
+
 
 end
 
