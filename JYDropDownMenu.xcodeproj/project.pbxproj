@@ -13,8 +13,8 @@
 		EF8129981FA8452800D30A76 /* JYDropDownItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8129901FA8452800D30A76 /* JYDropDownItemCell.m */; };
 		EF8129991FA8452800D30A76 /* JYDropDownItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF8129941FA8452800D30A76 /* JYDropDownItemCell.xib */; };
 		EF81299A1FA8452800D30A76 /* JYDropDownMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8129951FA8452800D30A76 /* JYDropDownMenuItem.m */; };
-		EF81299E1FA851B400D30A76 /* arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF81299C1FA851B400D30A76 /* arrow_down@3x.png */; };
-		EF81299F1FA851B400D30A76 /* correct@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF81299D1FA851B400D30A76 /* correct@3x.png */; };
+		EF81299E1FA851B400D30A76 /* jy_arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF81299C1FA851B400D30A76 /* jy_arrow_down@3x.png */; };
+		EF81299F1FA851B400D30A76 /* jy_correct@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF81299D1FA851B400D30A76 /* jy_correct@3x.png */; };
 		EFAB14F01F90C44100D322F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB14EF1F90C44100D322F8 /* AppDelegate.m */; };
 		EFAB14F31F90C44100D322F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB14F21F90C44100D322F8 /* ViewController.m */; };
 		EFAB14F61F90C44100D322F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAB14F41F90C44100D322F8 /* Main.storyboard */; };
@@ -36,8 +36,8 @@
 		EF8129931FA8452800D30A76 /* JYDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYDropDownMenu.h; sourceTree = "<group>"; };
 		EF8129941FA8452800D30A76 /* JYDropDownItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYDropDownItemCell.xib; sourceTree = "<group>"; };
 		EF8129951FA8452800D30A76 /* JYDropDownMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDropDownMenuItem.m; sourceTree = "<group>"; };
-		EF81299C1FA851B400D30A76 /* arrow_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down@3x.png"; sourceTree = "<group>"; };
-		EF81299D1FA851B400D30A76 /* correct@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "correct@3x.png"; sourceTree = "<group>"; };
+		EF81299C1FA851B400D30A76 /* jy_arrow_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jy_arrow_down@3x.png"; sourceTree = "<group>"; };
+		EF81299D1FA851B400D30A76 /* jy_correct@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jy_correct@3x.png"; sourceTree = "<group>"; };
 		EFAB14EB1F90C44100D322F8 /* JYDropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYDropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAB14EE1F90C44100D322F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFAB14EF1F90C44100D322F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,8 +91,8 @@
 		EF81299B1FA851B400D30A76 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
-				EF81299C1FA851B400D30A76 /* arrow_down@3x.png */,
-				EF81299D1FA851B400D30A76 /* correct@3x.png */,
+				EF81299C1FA851B400D30A76 /* jy_arrow_down@3x.png */,
+				EF81299D1FA851B400D30A76 /* jy_correct@3x.png */,
 			);
 			path = imgs;
 			sourceTree = "<group>";
@@ -204,8 +204,8 @@
 				EFAB14FB1F90C44100D322F8 /* LaunchScreen.storyboard in Resources */,
 				EFAB14F81F90C44100D322F8 /* Assets.xcassets in Resources */,
 				EF8129991FA8452800D30A76 /* JYDropDownItemCell.xib in Resources */,
-				EF81299E1FA851B400D30A76 /* arrow_down@3x.png in Resources */,
-				EF81299F1FA851B400D30A76 /* correct@3x.png in Resources */,
+				EF81299E1FA851B400D30A76 /* jy_arrow_down@3x.png in Resources */,
+				EF81299F1FA851B400D30A76 /* jy_correct@3x.png in Resources */,
 				EFAB14F61F90C44100D322F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

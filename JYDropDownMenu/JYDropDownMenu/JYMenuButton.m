@@ -47,7 +47,7 @@
         self.btTitle.attributedText = [[NSAttributedString alloc] initWithString:_menuItem.value attributes:self.currentShowTitleAttributes];
         [self addSubview:title];
         
-        UIImageView *arrowImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"arrow_down"]];
+        UIImageView *arrowImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"jy_arrow_down"]];
         self.btImage = arrowImg;
         [self addSubview:arrowImg];
         
